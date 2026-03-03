@@ -51,6 +51,7 @@ export default function Home({deploymentId}) {
         <Link href={`/font-next-font`}>Font — @next/font</Link><br />
         <Link href={`/page-does-not-exist`}>404 Page not found</Link><br />
         <Link href={`/about-us`}>App Dir</Link><br />
+        <Link href={`/streaming`}>Streaming with Suspense</Link><br />
       </section>
     </Layout>
   );
